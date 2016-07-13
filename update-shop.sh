@@ -36,7 +36,7 @@ echo "Start Shopware update download..."
 wget -O shop-update.zip  $UPDATE_URL
 echo "Shopware update downloaded."
 
-unzip -n -q shop-update.zip
+unzip -q shop-update.zip
 rm shop-update.zip
 
 echo "Shopware update unzipped."
