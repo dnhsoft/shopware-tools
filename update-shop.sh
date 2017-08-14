@@ -75,6 +75,8 @@ elif [ "$VERSION" = "5.2.25"  ]; then
   UPDATE_URL="http://releases.s3.shopware.com.s3.amazonaws.com/update_5.2.25_057e5d318c2c985fc6e64c06bec8ae08b4ce848c.zip" 
 elif [ "$VERSION" = "5.2.26"  ]; then
   UPDATE_URL="http://releases.s3.shopware.com.s3.amazonaws.com/update_5.2.26_fffb486ccb1ae5b022bbf8cbeb6156ddc2916ed8.zip" 
+elif [ "$VERSION" = "5.2.27"  ]; then
+  UPDATE_URL="http://releases.s3.shopware.com.s3.amazonaws.com/update_5.2.27_4a06ae67eac39eff42466854a4b4a100a2b53b69.zip" 
 else
   echo "Unsupported Shopware version for update."
   exit 1
