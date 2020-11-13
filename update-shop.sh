@@ -141,6 +141,16 @@ elif [ "$VERSION" = "5.6.3"  ]; then
   UPDATE_URL="https://releases.shopware.com/update_5.6.3_cf5242b79e7b89bd997cde5a0590435e295e0361.zip"
 elif [ "$VERSION" = "5.6.4"  ]; then
   UPDATE_URL="https://releases.shopware.com/update_5.6.4_d07b9c5e5525718be8c64f2a7f2c85a259b5c070.zip"
+elif [ "$VERSION" = "5.6.5"  ]; then
+  UPDATE_URL="https://releases.shopware.com/update_5.6.5_c7894a9bccd1201f75c0baf3ab76139d3e0554f5.zip"
+elif [ "$VERSION" = "5.6.6"  ]; then
+  UPDATE_URL="https://releases.shopware.com/update_5.6.6_a2550f4807e2ae04beb25a0669d8dc400b13c9d2.zip"
+elif [ "$VERSION" = "5.6.7"  ]; then
+  UPDATE_URL="https://releases.shopware.com/update_5.6.7_7cdeeea0ce00333cce56657c51d4320b95abeecb.zip"
+elif [ "$VERSION" = "5.6.8"  ]; then
+  UPDATE_URL="https://releases.shopware.com/update_5.6.8_a1cc2cde0ef3b303c96a32e8f2223cef34048fc4.zip"
+elif [ "$VERSION" = "5.6.9"  ]; then
+  UPDATE_URL="https://releases.shopware.com/update_5.6.9_5cea13d45e999d4419c4ac96e559110f50eeb7fe.zip"
 else
   echo "Unsupported Shopware version for update."
   exit 1
